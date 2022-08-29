@@ -1,0 +1,143 @@
+* {
+    font-family: 'Jameel Noori Nastaleeq';
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* home section starts */
+        .home {
+            min-height: 100vh;
+            background: #155768;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            z-index: 0;
+            overflow: hidden;
+            position: relative;
+        }
+    
+        .home .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column;
+            padding-top: 14rem;
+            padding-bottom: 8rem;
+            text-align: center;
+        }
+    
+        .home .content h1 {
+            font-size: 5rem;
+            color: #fff;
+            padding: 0 1rem;
+            text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+        }
+    
+    
+        .home .content p {
+            font-size: 2.5rem;
+            color: #eee;
+            padding: 1rem 25rem;
+        }
+    
+        .home .box-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            direction: rtl;
+        }
+    
+        .home .box-container .box {
+            height: 35rem;
+            width: 25rem;
+            background: #fff;
+            text-align: center;
+            border-radius: 1rem;
+            box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
+            margin: 2rem;
+            cursor: pointer;
+        }
+    
+        .home .box-container .box i {
+            height: 4rem;
+            width: 4rem;
+            line-height: 4rem;
+            text-align: center;
+            border-radius: 50%;
+            color: #fff;
+            background: #155768;
+            font-size: 2rem;
+            margin: 2rem 0;
+            transition: .2s;
+        }
+    
+        .home .box-container .box h3 {
+            font-size: 2.5rem;
+            color: #155768;
+            transition: .2s;
+        }
+    
+        .home .box-container .box p {
+            font-size: 1.5rem;
+            padding: .7rem 2rem;
+            color: #555;
+        }
+    
+        .home .box-container .box button {
+            height: 4rem;
+            width: 20rem;
+            border-radius: 5rem;
+            background: #155768;
+            color: #fff;
+            font-size: 2rem;
+            cursor: pointer;
+            transition: .2s;
+            border: none;
+            box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+            margin-top: 10px;
+        }
+    
+        .home .box-container .box button:hover {
+            letter-spacing: .2rem;
+            opacity: .8;
+        }
+    
+        .home .box-container .box:hover i {
+            letter-spacing: .2rem;
+            opacity: .8;
+        }
+    
+        .home .box-container .box:hover h3 {
+            letter-spacing: .1rem;
+        }
+    
+        .home::before {
+            content: '';
+            position: absolute;
+            bottom: -25rem;
+            left: 50%;
+            transform: translateX(-50%);
+            border-top: 70vh solid #fff;
+            width: 120%;
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+/* Home section ends */
+
+.home .content h1 {
+    font-size: 5rem;
+    color: #fff;
+    padding: 0 1rem;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+}
+
+
+.home .content p {
+    font-size: 2.5rem;
+    color: #eee;
+    padding: 1rem 25rem;
+}
